@@ -33,10 +33,23 @@ If you decide to fork, follow the [instructions](https://help.github.com/article
 Make sure you change *YOUR_USER_NAME* to your user name.
 
 ## Running the systems
-The algorithm can be run by simply typing:
+First, please download the [Segmented Intrusion Detection Dataset (SIDD)](). Make sure to extract files under the project folder as follows:
+
+<p>
+-Segmented-FL<br>
+&nbsp  - main.py<br>
+&nbsp  - cnn<br>
+&nbsp  - <b>n005</b><br>
+&nbsp  - <b>n006</b><br>
+&nbsp  - ...
+</p>
+
+Then, the algorithm can be run by simply typing:
 
     python3 main.py
     
+* In case, if you would like to use our dataset for other experiments, please consider citing our paper.
+  
 
 ## Further readings
 ### Segmented Federated Learning
