@@ -33,7 +33,7 @@ If you decide to fork, follow the [instructions](https://help.github.com/article
 Make sure you change *YOUR_USER_NAME* to your user name.
 
 ## Running the systems
-First, please download the [Segmented Intrusion Detection Dataset (SIDD)](). Make sure to extract files under the project folder as follows:
+First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://drive.google.com/file/d/1kSWHhqyMRtnqs_SF5tmQG8Qgy2Jm1nPo/view?usp=sharing). Make sure to extract files under the project folder as follows:
 
 <p>
 -Segmented-FL<br>
