@@ -11,8 +11,9 @@
 ## General information
 Predominant network intrusion detection systems (NIDS) aim to identify malicious traffic patterns based on a handcrafted dataset of rules. Recently, the application of machine learning in NIDS helps alleviate the enormous effort of human observation. Federated learning (FL) is a collaborative learning scheme concerning distributed data. Instead of sharing raw data, it allows a participant to share only a trained local model. Despite the success of existing FL solutions, in NIDS, a network’s traffic data distribution does not always fit into the single global model of FL; some networks have similarities with each other but other networks do not. We propose Segmented-Federated Learning (Segmented-FL), where by employing periodic local model evaluation and network segmentation, we aim to bring similar network environments to the same group.
 
-<img src="architecture.png" width="60%"/>
-
+<p align="center">
+<img src="architecture.png" width="80%"/>
+</p>
 
 ## Setup instructions
 This is a quick guide to get started with the sources. 
