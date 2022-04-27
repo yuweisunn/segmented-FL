@@ -1,6 +1,4 @@
-## This is an implementation of the 2020 IJCNN paper [Intrusion Detection with Segmented Federated Learning for Large-Scale Multiple LANs](https://www.researchgate.net/publication/346903921_Intrusion_Detection_with_Segmented_Federated_Learning_for_Large-Scale_Multiple_LANs)
-
-
+## This is an implementation of the 2020 IJCNN paper [Intrusion Detection with Segmented Federated Learning for Large-Scale Multiple LANs](https://ieeexplore.ieee.org/document/9207094)
 ## Table of Contents
 * [General information](#general-information)
 * [Setup instructions](#setup-instructions)
