@@ -33,7 +33,7 @@ def dropout(acc_list, server_list, fineness, acc_dict):
         if loss < fineness:
             flag.append(i)
     if len(flag) > 0:        
-        reborn(acc_dict, server, flag)
+        segment(acc_dict, server, flag)
             
     return flag, server
             
@@ -90,8 +90,7 @@ def server_update(server_list, node_name, server):
            server_list.pop(key) 
            counter = counter-1
 
-
     with open("server_dict.txt", "wb") as myFile:
          pickle.dump(server_list, myFile)
-   
-
+       
+    print(f"The current client nodes segmentation: {server_list}")

@@ -6,8 +6,9 @@ import random
 from cnn.common.optimizer import RMSProp
 
 
+
 def train(node_name, pcap, local_params_init, pattern):
-    data, label = makedataset("%s_%s/dataset" %(pcap, pattern), 4) 
+    data, label = makedataset("%s_%s/dataset" %(pcap, pattern)) 
     train_accuracy = []
     
     epochs = 1
