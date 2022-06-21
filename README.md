@@ -33,7 +33,7 @@ If you decide to fork, follow the [instructions](https://help.github.com/article
 Make sure you change *YOUR_USER_NAME* to your user name.
 
 ## Running the systems
-First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://drive.google.com/file/d/1kSWHhqyMRtnqs_SF5tmQG8Qgy2Jm1nPo/view?usp=sharing). Make sure to extract files under the project folder as follows:
+First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset). Make sure to place the files under the project folder as follows:
 
 <p>
 -Segmented-FL<br>
@@ -46,10 +46,31 @@ First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https:
 
 Then, the algorithm can be run by simply typing:
 
-    python3 main.py
-    
-* In case, if you would like to use our dataset for other experiments, please consider citing our paper.
+    python main.py  
   
+## About the [SIDD dataset](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset)
+- The folders were named as> **node name\_collection date\_device id\_anomaly type**. For example, **n005\_20191001\_000001\_1** means the traffic data including **Type A anomaly** collected on **October 1, 2019** by device id 1 at **node 005**.  
+
+- Currently, we are providing the images of two types of anomaly:
+     
+     - Type A: Server Message Block (SMB) attack (folder names like xx\_xx\_xx\_1)
+     
+     - Type B: TCP SYN flood attack (folder names like xx\_xx\_xx\_3)
+
+- In each folder, traffic data images were separated into the benign and anomaly. 
+
+- In case, if you would like to use our dataset for other projects, please consider citing our paper.
+```
+@inproceedings{sun2020segmented,
+  author    = {Yuwei Sun and
+               Hideya Ochiai and
+               Hiroshi Esaki},
+  title     = {Intrusion Detection with Segmented Federated Learning for Large-Scale
+               Multiple LANs},
+  booktitle = {International Joint Conference on Neural Networks (IJCNN)},
+  year      = {2020}
+}
+```
 
 ## Further readings
 ### Segmented Federated Learning
