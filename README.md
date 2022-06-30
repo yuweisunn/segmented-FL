@@ -33,7 +33,7 @@ If you decide to fork, follow the [instructions](https://help.github.com/article
 Make sure you change *YOUR_USER_NAME* to your user name.
 
 ## Running the systems
-First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset). Make sure to place the files under the project folder as follows:
+First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset). To install the dataset, place the files at the following location in the root dir:
 
 <p>
 -Segmented-FL<br>
