@@ -33,16 +33,20 @@ If you decide to fork, follow the [instructions](https://help.github.com/article
 Make sure you change *YOUR_USER_NAME* to your user name.
 
 ## Running the systems
-First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset). To install the dataset, place the files at the following location in the root dir:
+First, please download the [Segmented Intrusion Detection Dataset (SIDD)](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset). Place the unzipped files at the following location in the root dir to form the following tree structure:
 
-<p>
--Segmented-FL<br>
-&nbsp  - main.py<br>
-&nbsp  - cnn<br>
-&nbsp  - <b>n005</b><br>
-&nbsp  - <b>n006</b><br>
-&nbsp  - ...
-</p>
+    |-- Segmented-FL
+        |-- main.py
+        |-- cnn
+        |-- n005
+        |  |-- pcap
+        |  |-- local.npy
+        |-- n006
+        |  |-- pcap
+        |  |-- local.npy
+        |-- ...
+
+
 
 Then, the algorithm can be run by simply typing:
 
@@ -59,7 +63,9 @@ Then, the algorithm can be run by simply typing:
 
 - In each folder, traffic data images were separated into the benign and anomaly. 
 
-- In case, if you would like to use our dataset for other projects, please consider citing our paper.
+## Citation
+If this repository is helpful for your research or you want to refer the provided results in this work, you could cite the work using the following BibTeX entry:
+
 ```
 @inproceedings{sun2020segmented,
   author    = {Yuwei Sun and
