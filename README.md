@@ -1,4 +1,7 @@
-## This is an implementation of the 2020 IJCNN paper [Intrusion Detection with Segmented Federated Learning for Large-Scale Multiple LANs](https://ieeexplore.ieee.org/document/9207094)
+# Segmented Federated Learning
+
+This is an implementation of the 2020 IJCNN paper [Intrusion Detection with Segmented Federated Learning for Large-Scale Multiple LANs](https://ieeexplore.ieee.org/document/9207094).
+
 ## Table of Contents
 * [General information](#general-information)
 * [Setup instructions](#setup-instructions)
@@ -52,8 +55,12 @@ Then, the algorithm can be run by simply typing:
 
     python main.py  
   
-## About the [SIDD dataset](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset)
-- The folders were named as> **node name\_collection date\_device id\_anomaly type**. For example, **n005\_20191001\_000001\_1** means the traffic data including **Type A anomaly** collected on **October 1, 2019** by device id 1 at **node 005**.  
+## Segmented Intrusion Detection Dataset (SIDD)
+[SIDD](https://www.kaggle.com/datasets/yuweisunut/sidd-segmented-intrusion-detection-dataset) is the first image-based network intrusion detection dataset. This large-scale dataset includes the feature maps (images) of network traffic data from 15 different observation locations of different countries in Asia. This dataset is used to identify two different types of anomalies from benign network traffic. Each image with a size of 48 × 48 contains multi-protocol communications within 128 seconds. The SIDD dataset can be to applied to a broad range of tasks such as machine learning-based network intrusion detection, non-iid federated learning, and so forth.
+
+- The folders in the dataset are named as> **node name\_collection date\_device id\_anomaly type**. For example, **n005\_20191001\_000001\_1** means the traffic data including **Type A anomaly** collected on **October 1, 2019** by device id 1 at **node 005**.  
+
+- In each folder, traffic data images were separated into the benign and anomaly. 
 
 - Currently, we are providing the images of two types of anomaly:
      
@@ -61,7 +68,7 @@ Then, the algorithm can be run by simply typing:
      
      - Type B: TCP SYN flood attack (folder names like xx\_xx\_xx\_3)
 
-- In each folder, traffic data images were separated into the benign and anomaly. 
+
 
 ## Citation
 If this repository is helpful for your research or you want to refer the provided results in this work, you could cite the work using the following BibTeX entry:
