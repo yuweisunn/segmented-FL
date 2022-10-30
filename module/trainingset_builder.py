@@ -14,7 +14,7 @@ from module.hilbert_formc import *
 import math
 from cnn.ConvNet import *
 from dpkt.compat import compat_ord
-from module.reborn import *
+from module.segment import *
 
 def tcpFlags(tcp):
     """Returns a list of the set flags in this TCP packet."""
