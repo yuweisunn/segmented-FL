@@ -79,10 +79,22 @@ If this repository is helpful for your research or you want to refer the provide
   author    = {Yuwei Sun and
                Hideya Ochiai and
                Hiroshi Esaki},
-  title     = {Intrusion Detection with Segmented Federated Learning for Large-Scale
+  title     = {Intrusion Detection with Segmented Federated Learning for Large-scale
                Multiple LANs},
   booktitle = {International Joint Conference on Neural Networks (IJCNN)},
   year      = {2020}
+}
+
+@article{sun2020sfl,
+  author    = {Yuwei Sun and
+               Hiroshi Esaki and
+               Hideya Ochiai},
+  title     = {Adaptive Intrusion Detection in the Networking of Large-scale LANs
+               with Segmented Federated Learning},
+  journal   = {IEEE Open Journal of the Communications Society},
+  volume    = {2},
+  pages     = {102--112},
+  year      = {2021}
 }
 ```
 
@@ -90,6 +102,6 @@ If this repository is helpful for your research or you want to refer the provide
 ### Segmented Federated Learning
 * [	Adaptive Intrusion Detection in the Networking of Large-Scale LANs with Segmented Federated Learning](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9296578), Sun et al.,IEEE Open Journal of the Communications Society, Vol.2, pp.102-112. 2020.
 
-### Decentralized ML
+### Decentralized DL
 * [Decentralized Deep Learning for Multi-Access Edge Computing: A Survey on Communication Efficiency and Trustworthiness](https://www.techrxiv.org/articles/preprint/Decentralized_Deep_Learning_for_Multi-Access_Edge_Computing_A_Survey_on_Communication_Efficiency_and_Trustworthiness/16691230), Yuwei Sun et al., IEEE Transactions on Artificial Intelligence (2022).  
 * [Homogeneous Learning: Self-Attention Decentralized Deep Learning](https://ieeexplore.ieee.org/document/9680704), Yuwei Sun and Hideya Ochiai, IEEE Access (2022).
