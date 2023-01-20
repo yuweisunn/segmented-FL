@@ -68,6 +68,7 @@ Then, the algorithm can be run by simply typing:
      
      - Type B: TCP SYN flood attack (folder names like xx\_xx\_xx\_3)
 
+- Refer to [PyTorch Writing Custom Datasets, DataLoaders and Transforms](https://pytorch.org/tutorials/beginner/data_loading_tutorial.html) for preprocesing the dataset. We will release the preprocessed dataset and the code shortly.
 
 
 ## Citation
